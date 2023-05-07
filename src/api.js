@@ -1,6 +1,7 @@
 import axios from "axios";
 
 export const apiReq = axios.create({
+  // baseURL
   // baseURL:"https://demo1-backend.onrender.com",
   // baseURL:"http://localhost:4000/api/v1",
   baseURL: "demo2-production.up.railway.app/api/v1",
