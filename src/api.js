@@ -9,6 +9,8 @@ if(process.env.NODE_ENV === 'production'){
   url = process.env.REACT_APP_DEV_BACK_URL;
 }
 
+console.log("url",url);
+
 export const apiReq = axios.create({
   // baseURL
   // baseURL:"https://demo1-backend.onrender.com",
